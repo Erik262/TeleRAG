@@ -5,6 +5,8 @@ description = "Telegram RAG assistant that answers quick questions about your fa
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "anthropic>=1.17.0",
+    "gitsource>=0.0.5",
     "minsearch>=0.2.0",
     "openai>=3.16.2",
     "python-dotenv>=1.2.3",
@@ -15,3 +17,5 @@ dependencies = [
 dev = [
     "jupyter>=1.1.1",
 ]
+
+[tool.ty.rules]
